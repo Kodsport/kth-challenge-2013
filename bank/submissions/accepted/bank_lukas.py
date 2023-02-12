@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # This is an example solution to the "Bank Queue" problem from KTH Challenge 2013, held on April
 # 21, 2013.
@@ -31,4 +32,4 @@ for i in range(t - 1, -1, -1):
     if len(best) > 0:
         res -= heapq.heappop(best)
 
-print res
+print(res)

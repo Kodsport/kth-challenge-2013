@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # This is an example solution to the "Peragrams" problem from KTH Challenge 2013, held on April 21,
 # 2013.
 #
@@ -21,7 +22,7 @@ def solve():
     for x in counts:
         if x % 2 == 1: ans += 1
 
-    print max(0,ans-1)
+    print(max(0,ans-1))
 
 if __name__ == "__main__":
     solve();

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from sys import stdin
 import re
 import sys
@@ -36,7 +36,7 @@ def join(a, b):
 
 edge_set = set()
 # Check N-1 lines, three integers.
-for i in xrange(N-1):
+for i in range(N-1):
     line = stdin.readline()
     assert three_numbers_re.match(line)
     A, B, D = map(int, line.split())
@@ -61,7 +61,7 @@ endline = stdin.readline()
 assert end_re.match(endline)
 
 # Check lamp nodes
-lamps = map(int, endline.split())
+lamps = list(map(int, endline.split()))
 assert len(lamps) == L
 for x in lamps:
     assert 1 <= x <= N
