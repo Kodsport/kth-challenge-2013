@@ -1,0 +1,7 @@
+source: Czech-Polish-Slovak Programming Camp 2009
+author: Lukáš Poláček
+rights_owner: ksp.sk
+license: cc by-sa
+validator_flags: float_tolerance 1e-7
+limits:
+    time_multiplier: 3

@@ -1,0 +1,13 @@
+skip
+normal random 1 100 2 10
+normal random 1 100 2 10
+normal random 1 1000 5 40
+normal random 1 1000 5 40
+normal random 1 1000 5 40
+normal random 1 10000 20 47
+normal random 1 10000 20 47
+normal random 1 10000 20 47
+normal exactly 10000 47
+number 11 random 1 10000 20 47
+number 12 random 1 10000 20 47
+number 13 exactly 10000 47
